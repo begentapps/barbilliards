@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: ....
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1
       - name: Setup pages
