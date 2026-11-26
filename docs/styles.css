@@ -1,0 +1,224 @@
+:root {
+  --felt: #2f7d3a;
+  --felt-dark: #1d4f25;
+  --wood: #6b2f1f;
+  --cream: #f3ead3;
+  --ink: #2b2620;
+  --muted: #6d655a;
+  --card: #faf7ef;
+  --line: #e4dccb;
+  --theme-color: var(--felt);
+}
+
+body {
+  font-family: "Source Sans 3", -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background: #fff;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.cover h1 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  color: var(--ink);
+}
+
+.markdown-section h2 {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.3em;
+  margin-top: 2.2em;
+}
+
+.markdown-section {
+  max-width: 860px;
+}
+
+.markdown-section a {
+  color: var(--felt);
+}
+
+.markdown-section table {
+  display: table;
+  width: 100%;
+}
+
+.markdown-section tr:nth-child(2n) {
+  background-color: var(--card);
+}
+
+/* Sidebar */
+.sidebar .app-name-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Libre Baskerville", Georgia, serif;
+  color: var(--ink);
+  font-size: 1.15rem;
+}
+
+.sidebar-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+}
+
+/* Cover page */
+section.cover {
+  color: var(--cream);
+}
+
+section.cover .mask {
+  background-color: #0d0b08;
+  opacity: 0.62;
+}
+
+section.cover .cover-main {
+  max-width: 640px;
+}
+
+section.cover h1 {
+  color: var(--cream);
+  font-size: 3rem;
+  margin: 0.4rem 0 0.6rem;
+}
+
+section.cover h1 a span {
+  color: var(--cream);
+}
+
+section.cover .cover-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 26px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+section.cover blockquote > p {
+  color: var(--cream);
+  font-size: 1.3rem;
+  font-family: "Libre Baskerville", Georgia, serif;
+}
+
+section.cover ul {
+  color: var(--cream);
+  opacity: 0.92;
+}
+
+section.cover p:last-child a {
+  border-color: var(--cream);
+  color: var(--cream);
+  border-radius: 999px;
+  padding: 0.6em 1.8rem;
+  font-weight: 600;
+}
+
+section.cover p:last-child a:last-child {
+  background-color: var(--felt);
+  border-color: var(--felt);
+  color: #fff;
+}
+
+section.cover p:last-child a:hover {
+  opacity: 0.85;
+}
+
+/* Feature cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 1.2em 0 1.6em;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.card strong {
+  display: block;
+  font-family: "Libre Baskerville", Georgia, serif;
+  margin-bottom: 6px;
+  font-size: 1.02rem;
+}
+
+.card span {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Screenshots */
+.shots {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+  margin: 1.2em 0;
+}
+
+.shots figure {
+  margin: 0;
+}
+
+.shots img,
+.markdown-section img.wide {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  display: block;
+}
+
+.shots figcaption {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin-top: 8px;
+  line-height: 1.45;
+}
+
+.shots figcaption strong {
+  color: var(--ink);
+}
+
+/* Score hole chips */
+.holes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0.6em 0 1em;
+}
+
+.holes span {
+  background: var(--felt);
+  color: #fff;
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-weight: 600;
+}
+
+.holes span.big {
+  background: var(--felt-dark);
+}
+
+.callout {
+  background: var(--card);
+  border-left: 4px solid var(--felt);
+  border-radius: 6px;
+  padding: 12px 18px;
+  margin: 1.2em 0;
+}
+
+@media (max-width: 600px) {
+  section.cover h1 {
+    font-size: 2.2rem;
+  }
+  section.cover .cover-icon {
+    width: 88px;
+    height: 88px;
+  }
+  .shots {
+    grid-template-columns: 1fr;
+  }
+}

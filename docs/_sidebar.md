@@ -1,2 +1,5 @@
 - [Home](/)
-- [Privacy Policy](PRIVACY.md)
+- [How to play](how-to-play.md)
+- [Game options](game-options.md)
+- [Screenshots](screenshots.md)
+- [Privacy policy](PRIVACY.md)
