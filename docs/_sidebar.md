@@ -1,0 +1,2 @@
+- [Home](/)
+- [Privacy Policy](PRIVACY.md)
