@@ -1,5 +1,14 @@
 # Screenshots
 
+## Gameplay video
+
+<div class="video">
+  <iframe src="https://www.youtube-nocookie.com/embed/LUHeyVaug7s?rel=0" title="Bar Billiards gameplay" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+</div>
+<p class="video-caption">32 seconds of play with the Full aim guide on. <a href="https://www.youtube.com/watch?v=LUHeyVaug7s" target="_blank" rel="noopener">Watch on YouTube</a></p>
+
+## Pictures
+
 Click any picture to see it larger.
 
 <div class="shots">

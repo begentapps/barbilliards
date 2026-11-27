@@ -21,6 +21,11 @@ This game recreates a full-size pub table in 3D, with real ball physics, the off
 
 ## A look at the game
 
+<div class="video">
+  <iframe src="https://www.youtube-nocookie.com/embed/LUHeyVaug7s?rel=0" title="Bar Billiards gameplay" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+</div>
+<p class="video-caption">32 seconds of play with the Full aim guide on, so you can see where the balls will go.</p>
+
 <div class="shots">
   <figure><img src="images/screenshots/01-player-view.jpg" alt="The player's view, cue drawn back"><figcaption><strong>The player's view.</strong> Cue drawn back, ready to strike.</figcaption></figure>
   <figure><img src="images/screenshots/04-shot-running.jpg" alt="Watching a shot run"><figcaption><strong>Watching a shot run</strong> towards the holes and pegs.</figcaption></figure>
